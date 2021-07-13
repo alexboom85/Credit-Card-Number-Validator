@@ -12,16 +12,17 @@
 
 ## Описание процесса тестирования
 
-В программном коде:
+**В программном коде:
 
-public class Main {
-  public static void main(String[] args) {
+
+    public class Main {
+      public static void main(String[] args) {
     // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
     String number = "5351719427810741";
     System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
-  }
+       }
 
-  public static boolean isValidCardNumber(String number) {
+     public static boolean isValidCardNumber(String number) {
     if (number == null) {
       return false;
     }
@@ -51,6 +52,7 @@ public class Main {
     return (result != 0) && (result % 10 == 0);
   }
 }
+
 
 Запускать программу с разными тестовыми данными ( в месте проверки номера, строка 20, банковской карты подставляем различные данные.
 
