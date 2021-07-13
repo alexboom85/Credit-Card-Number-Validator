@@ -61,7 +61,7 @@
 Пример кода: https://github.com/netology-code/javaqa-homeworks/tree/master/intro:
 
 
-** Тестирование производилось в следующем окружении:**
+**Тестирование производилось в следующем окружении:**
 
-_1. Ноутбук HP Pavilion,Windows 10, x64 
-1. Openjdk version "11.0.11" 2021-04-20_
+1. Ноутбук HP Pavilion,Windows 10, x64 
+1. Openjdk version "11.0.11" 2021-04-20
