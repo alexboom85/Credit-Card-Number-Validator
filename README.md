@@ -7,7 +7,7 @@
 На тестирование затрачено: 5 часов
 
 В результате тестирования выявлены следующие дефекты:
-* Ссылка на дефект [Credit-Card-Number-Validator] [https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1]
+* Ссылка на дефект [Credit-Card-Number-Validator]: https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1
 * Ссылка на дефект https://github.com/alexboom85/Credit-Card-Number-Validator/issues/2
 
 ## Описание процесса тестирования
