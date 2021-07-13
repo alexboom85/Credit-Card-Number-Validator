@@ -58,7 +58,7 @@
 
 
 
-Пример кода: https://github.com/netology-code/javaqa-homeworks/tree/master/intro:
+[Пример кода](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
 
 
 **Тестирование производилось в следующем окружении:**
