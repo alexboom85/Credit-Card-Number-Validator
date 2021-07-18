@@ -7,61 +7,26 @@
 На тестирование затрачено: **5 часов**
 
 **В результате тестирования выявлены следующие дефекты:**       
-[Credit-Card-Number-Validator](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1)       
-[Credit-Card-Number-Validator #2](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/2)
+[Ссылка на Issue 1](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1)       
+[Ссылка на Issue 2](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/2)
 
 ## Описание процесса тестирования
 
-**В программном коде:**
+В процессе тестирования использовались следующие артефакты:
+
+**Intelij IDEA**
+
+**В качестве тестовых данных использовались данные: [Условия задания](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)**  
 
 
-    public class Main {
-      public static void main(String[] args) {
-    // TODO: подставлять номер карты нужно сюда между двойными кавычками, без пробелов
-    String number = "5351719427810741";
-    System.out.println(String.format("Result is %s", isValidCardNumber(number) ? "OK" : "FAIL"));
-       }
+1. Установить IntelliJ IDEA согласно Руководство по установке IntelliJ IDEA
+1. Проверить работу этой программы (нужно заменить код с "Hello programming!" целиком на тот, что приведён выше) и запускать программу с разными тестовыми данными (запуск описан в п. "Шаг 20" Руководства по установке IntelliJ IDEA)
+1. Подготовьте отчёт о проведённом тестировании в указанном формате и разместите его в репозитории. Инструменты форматирования текста в .md-файлах вы можете найти здесь или открыть шаблон и нажать на кнопочку Raw справа сверху 
 
-     public static boolean isValidCardNumber(String number) {
-    if (number == null) {
-      return false;
-    }
+**Тестирование производилось в следующем окружении:**   
 
-    if (number.length() != 16) {
-      return false;
-    }
+*Ноутбук HP Pavilion, Windows 10, x64*    
 
-    long result = 0;
-    for (int i = 0; i < number.length(); i++) {
-      int digit;
-      try {
-        digit = Integer.parseInt(number.charAt(i) + "");
-      } catch (NumberFormatException e) {
-        return false;
-      }
-
-      if (i % 2 == 0) {
-        digit *= 2;
-        if (digit > 9) {
-          digit -= 9;
-        }
-      }
-      result += digit;
-    }
-
-    return (result != 0) && (result % 10 == 0);
-  }
-}
+*Openjdk version "11.0.11" 2021-04-20*   
 
 
-Запускать программу с разными тестовыми данными ( в месте проверки номера, строка 20, банковской карты подставляем различные данные).
-
-
-
-[Пример кода](https://github.com/netology-code/javaqa-homeworks/tree/master/intro)
-
-
-**Тестирование производилось в следующем окружении:**
-
-1. Ноутбук HP Pavilion,Windows 10, x64 
-1. Openjdk version "11.0.11" 2021-04-20
