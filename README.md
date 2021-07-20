@@ -7,8 +7,8 @@
 На тестирование затрачено: **5 часов**
 
 **В результате тестирования выявлены следующие дефекты:**       
-[Ссылка на Issue 1](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1)       
-[Ссылка на Issue 2](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/2)
+[Номер кредитной карты 5351719427810740 не проходит валидацию](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/1)       
+[Номер кредитной карты 5351719427810742 не проходит валидацию](https://github.com/alexboom85/Credit-Card-Number-Validator/issues/2)
 
 ## Описание процесса тестирования
 
